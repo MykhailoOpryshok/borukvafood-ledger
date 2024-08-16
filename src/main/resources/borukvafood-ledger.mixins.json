@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.opryshok.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CuttingBoardEntityMixin",
+    "CuttingBoardMixin",
+    "KnifeMixin",
+    "LedgerSimpleGuiMixin",
+    "LedgerSlotMixin",
+    "LemonFruitLeavesMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
